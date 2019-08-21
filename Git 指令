@@ -1,0 +1,11 @@
+使用命令行代码的方式
+1.初始化GitHub数据:
+git config --global user.name 'github用户名称'
+git config --global user.email '你的邮箱'
+初始化  git init
+2.由工作区上交到暂存区
+git add '文件'（记住：修改后的文档也要保存到暂存区）
+3.由暂存区上交到git仓库
+git commit -m '项目说明'
+4.由git仓库上交到GitHub仓库
+
