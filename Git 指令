@@ -10,9 +10,15 @@ git clone '仓库地址'
 
 2.由工作区上交到暂存区
 git add '文件'（记住：修改后的文档也要保存到暂存区）
+
 3.由暂存区上交到git仓库
 git commit -m '项目说明'
+
 4.由git仓库上交到GitHub仓库
 git push
+
+将github中创建的仓库与本地的git仓库联系起来
+git remote add origin "github仓库地址"
+git push -u origin master
 
 
