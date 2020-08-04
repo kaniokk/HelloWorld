@@ -21,4 +21,9 @@ git push
 git remote add origin "github仓库地址"
 git push -u origin master
 
+补充：
+出现remote origin already exists.问题时：
+1、先git remote rm origin
+2、然后 git remote add origin git@“项目地址”
+
 
